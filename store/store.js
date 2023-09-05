@@ -5,7 +5,6 @@ import userSlice from "./userSlice";
 const store = configureStore({
   reducer: {
     book: bookReducer,
-    token: userSlice,
   },
 });
 
